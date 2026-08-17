@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: summer-pay-calculator
+    runtime: static
+    staticPublishPath: ./
+    buildCommand: ""
+    envVars:
+      - key: NODE_ENV
+        value: production
